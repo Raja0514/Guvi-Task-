@@ -1,1 +1,36 @@
+{    
+    
+"Personal Detail":
+    
+    {"Name":"Raja",
+    "gender":"Male",
+    "age":33,
+    "martialstatus":"True",
+    "hobbies":"playing cricket "},
 
+    "undergraduate":
+    
+            {"Batchler of Information Technoly":"B.Tech IT",
+            "Institute Name":"Meenakshi college of engineering","city":"chennai",
+            "year of Passing":2010},
+             
+    "Diplomo":
+      
+            {"Diplomo in  computer Technology":"DCT","institue Name":"govt Polytechnic college ","city":"Aranthangi-Pudukottai",
+            "year of Passing":2007},
+
+    "School":
+             {"Institute Name":"GHSSS","Down":"Neduvasal","HSSC Year of Passing":2005,"SSLC Year Of Passing":2003},
+
+
+    "Address":
+
+                 {"son of":"Mathiyalagan",
+                 "post":"karukkakuruchi",
+                 "Pin no":622304,
+                "village":"Nallandarkolla",
+                "talik":"karambakkudi",
+                "Disttrict":"Pudukottai",
+                "state":"tamilnadu",
+                 "country":"india"}
+}
