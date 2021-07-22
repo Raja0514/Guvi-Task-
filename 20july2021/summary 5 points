@@ -1,0 +1,9 @@
+summary five points about this video
+
+1.Parsing----->DOM tree
+2.DOM Trees------>Render Trees
+3.layout
+4.Paint
+
+Layout computes where a Node will be on the screen
+Panting Computes bitmap and compsites to screen
