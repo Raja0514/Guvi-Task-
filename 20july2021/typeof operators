@@ -1,0 +1,21 @@
+typeOf
+
+syntax 
+typeof opearnd
+typeof(opearnd)
+
+Description:
+              The typeOf opeartor its returns the type a objects,variable,function or expression .
+
+
+Opeartor               Description
+
+typeof(1)             It's return "number" 
+typeof(1.1)           It's return "number"  
+typeof('1.1')         It's return "strings"
+typeof(true)          It's return "Boolean"
+typeof(null)          It's return "Objects"
+typeof(undefined)     It's return "undefined"
+typeof([])            It's return "Objects" 
+typeof({})            It's return "objects"
+typeof(NaN) 	      It's return "number"
