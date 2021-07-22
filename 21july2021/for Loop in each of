@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+        var obj =[
+                    {person: "kannan", age: "32", company: "GUVI" },
+                    {person: "kumar 2", age: "35", company: "GUVI geek" },
+                    {person: "ram", age: "38", company: "GUVI geek network" }
+                ];
+
+                    console.log("_______________");
+                    console.log("for loop");
+                    console.log("_______________");
+
+                         for(var i=0;i<obj.length;i++)
+                        {
+                             console.log(obj[i].person);
+                             console.log(obj[i].age);
+                             console.log(obj[i].company);
+                        }
+
+                    console.log("________________");
+                    console.log("forin loop");
+                    console.log("________________");
+          
+                        for(var x in obj)          
+                        {
+                            console.log(x);
+                            console.log(obj[x].person);
+                            console.log(obj[x].age);
+                            console.log(obj[x].company);
+                        }
+
+                    console.log("________________________");
+                    console.log("foreach loop");
+                    console.log("________________________");
+
+                        obj.forEach((e,i)=>console.log(e,i));
+
+                    console.log("__________________________");
+                    console.log("for of Loop");
+                    console.log("________________________");
+
+                        for(var y of obj)     
+                        {
+    
+                           console.log(y);
+        
+                        }
+</script>
+</body>
+</html>
