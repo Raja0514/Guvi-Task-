@@ -1,0 +1,15 @@
+difference between javascript and Nodejs
+
+       javascript :                                                          Nodejs:
+
+It's only run in the browser side                                      It's run server side
+we can embed with html code and play with DOM                          we cannot emped with html code
+It's basically used in the client side                                 it's basically used in the srever side 
+javascript can run only in the browsers                                Nodejs code can run in the server side
+javascript used for front end development                              Nodejs used for serverside development
+it's can run any server engine like v8                                 It's run only v8 engine 
+spidermonkey,chakra                                                    v8 engine code written in c++
+some of the javascript frmaeworks are                                  some of the nodeJs modules are loadash,express etc 
+Ramdas JS and Typed JS                                                 This modules are to be imported from npm
+its upgrade version of ECMAscript thats                                Nodejs written in c,c++ and javascript
+uses chrome v8 engine written c++
