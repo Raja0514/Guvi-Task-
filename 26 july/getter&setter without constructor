@@ -1,0 +1,35 @@
+class dog{
+
+   
+
+    
+
+    getName(){
+    console.log(this.name);   //getter()
+
+}
+
+setName(name){
+    this.name=name;            //setter()
+
+}
+
+getSound(){
+    console.log(this.sound)
+}
+
+setSound(sound){
+
+    this.sound=sound;
+
+}
+}
+
+var dd =new dog();
+
+console.log(dd);
+
+dd.setName("puppy");
+dd.getName();
+dd.setSound("fido");
+dd.getSound();
