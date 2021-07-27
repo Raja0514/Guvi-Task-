@@ -1,0 +1,44 @@
+class calculator{
+    constructor(num1,num2){
+        this.num1=num1;
+        this.num2=num2
+    }
+    getaddition(){
+
+        console.log(this.num1+this.num2);
+
+    }
+    getsubtraction(){
+
+        console.log(this.num1-this.num2);
+
+    }
+    getmultiplication(){
+
+        console.log(this.num1*this.num2);
+
+    }
+    getdivison(){
+
+        console.log(this.num1/this.num2);
+
+    }
+
+}
+
+class calc extends calculator{
+    constructor(){
+        super(500,100);
+
+    }
+   
+}
+
+var val=new calc();
+
+val.getaddition();
+val.getsubtraction();
+val.getmultiplication();
+val.getdivison();
+
+
