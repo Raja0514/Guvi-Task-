@@ -1,0 +1,34 @@
+class animal{
+
+    setlegs(legs){
+
+        this.legs=legs;
+
+
+    }
+}
+
+class dog extends animal{
+    constructor(name,sound,legs){
+        super();
+        super.setlegs(legs);
+        this.name=name;
+        this.sound=sound;
+
+    }
+
+
+getData(){
+    console.log(this.name,this.sound,this.legs);
+}
+}
+
+
+var dd =new dog("fiber","optic",4);
+
+dd.getData();
+
+
+
+
+
