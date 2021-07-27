@@ -1,0 +1,18 @@
+class reactangle{
+    constructor(length,width){
+        this.length=length;
+        this.width=width;
+
+    }
+
+
+getReactarea(){
+
+   
+    console.log(this.length*this.width);
+}
+}
+
+var nj=new reactangle(30,60)
+
+nj.getReactarea();
