@@ -1,0 +1,34 @@
+class animal {
+    constructor(legs,tail,gender){
+        this.legs=legs;
+        this.tail=tail;
+        this.gender=gender;
+
+    }
+
+    getLegs(){
+        console.log(this.legs);
+
+    }
+
+}
+
+class dog extends animal{
+    constructor(name,sound){
+        super(8,true,"male");
+        this.name=name;
+        this.sound=sound;
+
+    }
+
+    getData(){
+        console.log(this.name,this.sound,this.tail,this.gender);
+        //this.getLegs();
+
+    }
+}
+
+var dd= new dog("fiper","optic");
+
+dd.getData();
+dd.getLegs();
