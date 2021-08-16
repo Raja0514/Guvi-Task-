@@ -1,0 +1,56 @@
+<!-- --------------------------------------------------------------------------HTML CODE------------------------------------------------------------------------------ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/css/index.css" />
+  </head>
+  <body>
+    <ul>
+      <li>Programming Language</li>
+    </ul>
+    <ul type="circle">
+      <li class="circle">JavaScript</li>
+    </ul>
+    <ol type="a">
+      <li class="abc">Angular</li>
+      <li class="abc">React</li>
+      <li class="abc">Vue.js</li>
+    </ol>
+    <ul type="circle">
+      <li class="circle">Python</li>
+    </ul>
+    <ol type="a">
+      <li class="abc">Django FrameWork</li>
+      <li class="abc">Flask FrameWork</li>
+    </ol>
+    <ul type="circle">
+      <li class="circle">java</li>
+    </ul>
+    <ol type="a">
+      <li class="abc">Spring</li>
+      <li class="abc">Mawan</li>
+      <li class="abc">Hibernate</li>
+    </ol>
+    <ul>
+      <li>Database</li>
+      <ol type="a">
+        <li>MYSQL</li>
+        <li>MongoDB</li>
+        <li>Cansandra</li>
+      </ol>
+    </ul>
+  </body>
+</html>
+
+/*------------------CSS CODE*------------------------------------------------------------------------------------------------------------/
+.circle{
+    margin-left: 50px;
+}
+.abc{
+    margin-left: 50px;
+}
